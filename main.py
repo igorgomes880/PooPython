@@ -1,0 +1,6 @@
+from Produto import Produto
+
+
+produto = Produto(1, "Banana", "Banana Prata", "Frutas" , 2.5 , 10, True)
+produto.codigo = -1
+print(produto.codigo)
